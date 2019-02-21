@@ -865,4 +865,8 @@ public class Winnow
   public static void main(String[] argv) {
     runClassifier(new Winnow(), argv);
   }
+  
+  public int testTravis() {
+	  return 5;
+  }
 }
